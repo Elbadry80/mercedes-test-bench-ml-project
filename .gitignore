@@ -139,3 +139,19 @@ dmypy.json
 # nbdime Stuff
 .gitattributes
 
+# Kaggle competition data – keep local
+data/*.csv
+data/*.zip
+# Competition data – do not publish
+data/raw/
+data/predictions/
+
+# Local Excel copies
+Train.xlsx
+Test.xlsx
+Sample_Submission.xlsx
+~$*.xlsx
+
+# Trained model files
+models/*.pkl
+models/*.joblib
