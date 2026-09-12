@@ -154,4 +154,4 @@ Sample_Submission.xlsx
 
 # Trained model files
 models/*.pkl
-models/*.joblibgit sta
+models/*.joblib
